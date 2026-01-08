@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Dhaval Patel
 
-💼 Aspiring Data Analyst | Python Enthusiast | Insight-Driven Thinker
+💼 Aspiring Data Analyst/Scientest | Python Enthusiast | Insight-Driven Thinker
 
 ---
 
