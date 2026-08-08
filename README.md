@@ -76,6 +76,7 @@ Python, Pandas, Scikit-learn, Power BI
 - Built a Low/Medium/High risk-band segmentation showing a 6x default-rate gap between the lowest and highest risk borrowers
 - Random Forest model (AUC 0.85, 74% recall on defaulters) independently confirmed the same risk drivers as the segmentation
 - Delivered as a 4-visual Power BI dashboard with a KPI header, color-coded risk segmentation, and top risk factors
+  
 🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/credit-risk-dashboard)
  
 ---
