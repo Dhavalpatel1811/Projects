@@ -26,13 +26,6 @@ Outside of coursework, I build end-to-end personal projects to practice the skil
 
 ---
 
-## 📫 Let's Connect
-
-- LinkedIn: [dhavalkumar-patel1811](https://www.linkedin.com/in/dhavalkumar-patel1811/)
-- Email: dhavalkumarpatel.data@gmail.com
-
----
-
 ## 🔥 Featured Projects Overview
 
 ### 🤖 LLM Evaluation Pipeline for RAG Applications
@@ -71,3 +64,10 @@ TensorFlow/Keras (LSTM), XGBoost, scikit-learn, SHAP, FinBERT, sentence-transfor
 ---
 
 *(more projects coming — we'll work through the rest one by one)*
+
+---
+
+## 📫 Let's Connect
+
+- LinkedIn: [dhavalkumar-patel1811](https://www.linkedin.com/in/dhavalkumar-patel1811/)
+- Email: dhavalkumarpatel.data@gmail.com
