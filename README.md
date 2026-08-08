@@ -63,6 +63,23 @@ TensorFlow/Keras (LSTM), XGBoost, scikit-learn, SHAP, FinBERT, sentence-transfor
 
 ---
 
+### 💳 Credit Risk Dashboard — Loan Default Prediction
+ 
+**🎯 Objective:**
+Cleaned a 150,000-borrower credit dataset, defined a risk-band KPI, trained a model to validate the risk drivers, and built a Power BI dashboard to present the findings.
+ 
+**🛠️ Tech Stack:**
+Python, Pandas, Scikit-learn, Power BI
+ 
+**📌 Highlights:**
+- Caught and corrected hidden sentinel/error values in the raw data before they could distort the KPIs
+- Built a Low/Medium/High risk-band segmentation showing a 6x default-rate gap between the lowest and highest risk borrowers
+- Random Forest model (AUC 0.85, 74% recall on defaulters) independently confirmed the same risk drivers as the segmentation
+- Delivered as a 4-visual Power BI dashboard with a KPI header, color-coded risk segmentation, and top risk factors
+🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/credit-risk-dashboard)
+ 
+---
+
 *(more projects coming — we'll work through the rest one by one)*
 
 ---
