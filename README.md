@@ -1,172 +1,69 @@
-# 👋 Hi, I’m Dhaval Patel
+# 👋 Hi, I'm Dhavalkumar PATEL
 
-💼 Aspiring Data Analyst/Scientest | Python Enthusiast | Insight-Driven Thinker
+🎓 Data Scientist — Looking for an alternance (PGE 5, aivancity Paris) from September 2026
+
+---
+
+## About Me
+
+I'm in my final year of the Programme Grande École in AI & Data Science at aivancity in Paris, looking for a Data Science alternance starting September 2026. I've built and evaluated model pipelines (LLM evaluation, classification) delivered to real clients through aivancity's AI Clinic — from data preparation through performance-metric analysis, for Sports N Data and Deep Scouting.
+
+Outside of coursework, I build end-to-end personal projects to practice the skills I don't get enough hands-on time with in class — data cleaning, model building, and dashboarding.
+
+---
+
+## 🛠️ Skills
+
+**ML / NLP:** Scikit-learn, TensorFlow, PyTorch, Transformers (BERT), OpenCV, LangChain, RAGAS, LLM Evaluation
+**Languages & Tools:** Python, SQL, C++, HTML/CSS, Google Colab
+**Data Analysis:** Pandas, NumPy, Google Analytics, ETL, Data Cleaning & Structuring, Feature Engineering, Power BI, Excel, Google Sheets
+**Visualization & Reporting:** Matplotlib, Seaborn, Power BI, PowerPoint, Word
+**Cloud & APIs:** AWS Bedrock (LLM Inference), REST APIs
+
+---
+
+## 📫 Let's Connect
+
+- LinkedIn: [dhavalkumar-patel1811](https://www.linkedin.com/in/dhavalkumar-patel1811/)
+- Email: dhavalkumarpatel.data@gmail.com
 
 ---
 
 ## 🔥 Featured Projects Overview
 
-This document showcases my top Data Analytics & Machine Learning projects — each one using Python to turn raw data into actionable insights.
+### 🤖 LLM Evaluation Pipeline for RAG Applications
 
----
+**🎯 Objective:**
+Built a reproducible pipeline to benchmark 5 LLMs for a production RAG system, comparing response quality, latency, consistency, and citation accuracy to produce a data-driven model recommendation — for a real client (Sports N Data) via aivancity's AI Clinic.
 
-### 💬 Sentiment Analysis Pipeline
-
-**🎯 Objective:**  
-Build a pipeline to classify text (tweets, reviews) as Positive, Negative, or Neutral.
-
-**🛠️ Tech Stack:**  
-Python, Pandas, Scikit-learn, NLTK/SpaCy
-
-**📂 Structure:**
-- `data/` – Raw text data  
-- `notebooks/` – EDA and modeling  
-- `pipeline.py` – Main script  
-
-**🚀 How to Run:**
-```bash
-python pipeline.py
-```
+**🛠️ Tech Stack:**
+Python, AWS Bedrock, LangChain, RAGAS-inspired evaluation, Hugging Face Datasets, Pandas, NumPy
 
 **📌 Highlights:**
-- Text preprocessing and TF-IDF
-- Logistic Regression / SVM classifiers
+- Automated benchmarking across 5 LLMs × 15 standardized questions × 3 repetitions for consistency
+- LLM-as-a-Judge evaluation methodology (factual correctness, completeness, scientific rigor, clarity)
+- Solved a real multilingual response bug through prompt engineering
+- Recommendations used directly by the client's project lead to inform production model choice
 
-🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/sentiment-analysis-pipeline)
+🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/llm-rag-evaluation-pipeline)
 
 ---
 
-### 📊 Lab 5 – Data Analysis
+### 🪙 Gold Price Prediction & Investment Advisor
 
-**🎯 Objective:**  
-Perform statistical analysis and visual exploration for a given dataset (coursework project).
+**🎯 Objective:**
+Academic capstone forecasting gold price movement from historical market data and financial news sentiment, with results exposed through a RAG-powered investment chatbot.
 
-**🛠️ Tech Stack:**  
-Python, Pandas, Matplotlib, Seaborn
-
-**📂 Structure:**
-- `Lab5.ipynb`
-
-**🚀 How to Run:**
-```bash
-jupyter notebook Lab5.ipynb
-```
+**🛠️ Tech Stack:**
+TensorFlow/Keras (LSTM), XGBoost, scikit-learn, SHAP, FinBERT, sentence-transformers, FAISS, Ollama (LLaMA3), Gradio, Pandas, NumPy
 
 **📌 Highlights:**
-- Descriptive statistics
-- Seaborn visualizations
+- Three-part pipeline: LSTM next-day price forecasting → XGBoost + FinBERT sentiment-based direction classifier explained with SHAP → RAG chatbot answering both prediction and investment-theory questions
+- RAG chatbot grounded in *The Intelligent Investor* via a local LLaMA3 model and FAISS vector search
+- Full local setup with a Gradio UI, documented environment/version troubleshooting, and a preserved earlier prototype for reference
 
-🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/lab_5)
-
----
-
-### ⚽ Football Data Analysis
-
-**🎯 Objective:**  
-Explore football match data for performance trends and player insights.
-
-**🛠️ Tech Stack:**  
-Python, Pandas, Plotly, Matplotlib
-
-**📂 Structure:**
-- `data/` – Match/player CSVs  
-- `analysis.ipynb` – Visual exploration  
-
-**🚀 How to Run:**
-```bash
-jupyter notebook analysis.ipynb
-```
-
-**📌 Highlights:**
-- Top scorers & win trends
-- Home vs away analysis
-
-🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/Football_Analysis)
+🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/Gold_Price)
 
 ---
 
-### 🔍 Lab 3 – Exploratory Data Analysis (EDA)
-
-**🎯 Objective:**  
-Use EDA techniques to understand data distributions and relationships.
-
-**🛠️ Tech Stack:**  
-Python, Pandas, Matplotlib
-
-**📂 Structure:**
-- `Lab3_EDA.ipynb`
-
-**🚀 How to Run:**
-```bash
-jupyter notebook Lab3_EDA.ipynb
-```
-
-**📌 Highlights:**
-- Correlation matrix
-- Pair plots and histograms
-
-🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/lab_3)
-
----
-
-### 🎵 Music Popularity Prediction
-
-**🎯 Objective:**  
-Predict song popularity based on features like tempo, danceability, and energy.
-
-**🛠️ Tech Stack:**  
-Python, Pandas, Scikit-learn, XGBoost
-
-**📂 Structure:**
-- `data/` – Spotify datasets  
-- `notebooks/` – Model dev  
-- `music_popularity.ipynb`
-
-**🚀 How to Run:**
-```bash
-jupyter notebook music_popularity.ipynb
-```
-
-**📌 Highlights:**
-- Feature engineering (tempo, valence, etc.)
-- Regression models (XGBoost, Linear Regression)
-
-🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/Music-Popularity-Prediction)
-
----
-
-### 🗂️ Projects Repo (Landing Page)
-
-**📌 Purpose:**  
-Central hub to organize and link to all major projects.
-
-**🔗 Live Projects:**
-- [Sentiment Analysis Pipeline](https://github.com/Dhavalpatel1811/sentiment-analysis-pipeline)
-- [Music Popularity Prediction](https://github.com/Dhavalpatel1811/Music-Popularity-Prediction)
-- [Football Analysis](https://github.com/Dhavalpatel1811/Football_Analysis)
-- [Lab 3 – EDA](https://github.com/Dhavalpatel1811/lab_3)
-- [Lab 5 – Data Analysis](https://github.com/Dhavalpatel1811/lab_5)
-
-🔗 [GitHub Repo](https://github.com/Dhavalpatel1811/Projects)
-
----
-
-### 🧑‍💻 GitHub Profile – `dhavalpatel1811`
-
-**👨‍💻 About Me:**  
-I’m a passionate data analyst who loves turning numbers into narratives. From preprocessing to predictions — I bring data to life.
-
-**⚙️ Skills:**
-- Data Analysis (Pandas, NumPy)
-- Data Viz (Matplotlib, Plotly, Seaborn)
-- Machine Learning (Scikit-learn, XGBoost)
-- Python Scripting & Dashboards
-
-**🧠 Projects Featured:**
-- [Sentiment Analysis](https://github.com/Dhavalpatel1811/sentiment-analysis-pipeline)
-- [Music Prediction](https://github.com/Dhavalpatel1811/Music-Popularity-Prediction)
-- [Football Analysis](https://github.com/Dhavalpatel1811/Football_Analysis)
-
-**📫 Let’s Connect!**
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/)
-- GitHub: [Dhavalpatel1811](https://github.com/Dhavalpatel1811)
+*(more projects coming — we'll work through the rest one by one)*
