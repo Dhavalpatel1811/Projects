@@ -15,9 +15,13 @@ Outside of coursework, I build end-to-end personal projects to practice the skil
 ## 🛠️ Skills
 
 **ML / NLP:** Scikit-learn, TensorFlow, PyTorch, Transformers (BERT), OpenCV, LangChain, RAGAS, LLM Evaluation
+
 **Languages & Tools:** Python, SQL, C++, HTML/CSS, Google Colab
+
 **Data Analysis:** Pandas, NumPy, Google Analytics, ETL, Data Cleaning & Structuring, Feature Engineering, Power BI, Excel, Google Sheets
+
 **Visualization & Reporting:** Matplotlib, Seaborn, Power BI, PowerPoint, Word
+
 **Cloud & APIs:** AWS Bedrock (LLM Inference), REST APIs
 
 ---
